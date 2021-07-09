@@ -1,1 +1,3 @@
-# Watson-Assistant-chatbot-that-about-covid-19-
+# Watson-Assistant-chatbot-that-about-covid-19
+في هذه المهمة قمت بإنشاء بوت للإجابة عن اهم الاسئلة حول فيروس كورونا وهي (ماهي أعراضه الشائعة , طرق الوقاية منه , وكيفية أخذ اللقاح)
+كما انني قمت بإضافته إلى لوحة التحكم (Robot Base Interface) التي قمت بإنشائها مسبقًا.
