@@ -1,0 +1,497 @@
+{
+  "intents": [
+    {
+      "intent": "اعراض",
+      "examples": [
+        {
+          "text": "أعراض كوفيد"
+        },
+        {
+          "text": "ايش أعراض كورونا"
+        },
+        {
+          "text": "ايش اعراض فايروس كرونا"
+        },
+        {
+          "text": "ايش هيا اعراضه؟"
+        },
+        {
+          "text": "قولي ايش هيا اعراضه"
+        },
+        {
+          "text": "ماهي اعراض فايروس كورونا"
+        },
+        {
+          "text": "ماهي اعراض فايروس كورونا؟"
+        },
+        {
+          "text": "ماهي اعراضه"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "الوقاية",
+      "examples": [
+        {
+          "text": "أتجنب الاصابة"
+        },
+        {
+          "text": "أحمي"
+        },
+        {
+          "text": "احمي نفسي"
+        },
+        {
+          "text": "الحماية"
+        },
+        {
+          "text": "تجنب الإصابة"
+        },
+        {
+          "text": "تجنب الفايروس"
+        },
+        {
+          "text": "حماية"
+        },
+        {
+          "text": "طرق الوقاية؟"
+        },
+        {
+          "text": "كيف أحمي نفسي من فيروس كورونا؟"
+        },
+        {
+          "text": "كيف اتجنب الاصابه بالفايروس"
+        },
+        {
+          "text": "كيف احمي نفسي من الفايروس؟"
+        },
+        {
+          "text": "كيف اقدر احمي نفسي من الفايروس"
+        },
+        {
+          "text": "كيف نحمي اولادي من كرورنا؟"
+        },
+        {
+          "text": "ماهي طرق الوقاية؟"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ترحيب",
+      "examples": [
+        {
+          "text": "استفسار"
+        },
+        {
+          "text": "السلام عليكم"
+        },
+        {
+          "text": "اهلا"
+        },
+        {
+          "text": "بسألك"
+        },
+        {
+          "text": "حاب اسأل"
+        },
+        {
+          "text": "حابه اسال"
+        },
+        {
+          "text": "سؤال"
+        },
+        {
+          "text": "سلام"
+        },
+        {
+          "text": "عندي استفسار"
+        },
+        {
+          "text": "لو تكرمت"
+        },
+        {
+          "text": "لو سمحت"
+        },
+        {
+          "text": "لو سمحت بسالك"
+        },
+        {
+          "text": "مرحبا"
+        },
+        {
+          "text": "من فضلك"
+        },
+        {
+          "text": "هلا"
+        },
+        {
+          "text": "هلا وسهلا"
+        },
+        {
+          "text": "هلو"
+        },
+        {
+          "text": "يا هلا"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "تسميات",
+      "examples": [
+        {
+          "text": "covid"
+        },
+        {
+          "text": "covid ١9"
+        },
+        {
+          "text": "covide-١9"
+        },
+        {
+          "text": "فايروس"
+        },
+        {
+          "text": "فايروس كورونا"
+        },
+        {
+          "text": "كرونا"
+        },
+        {
+          "text": "كورونا"
+        },
+        {
+          "text": "كوفيد"
+        },
+        {
+          "text": "كوفيد-١9"
+        },
+        {
+          "text": "كوفيد١9"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "حجز_لقاح",
+      "examples": [
+        {
+          "text": "احذ لقاح كورونا"
+        },
+        {
+          "text": "اخذ اللقاح"
+        },
+        {
+          "text": "اخذ جرعة ضد كورونا"
+        },
+        {
+          "text": "جرعة"
+        },
+        {
+          "text": "حجز"
+        },
+        {
+          "text": "حجز لقاح كوفيد"
+        },
+        {
+          "text": "طريقة حجز لقاح كورونا"
+        },
+        {
+          "text": "كيف احجز للقاح"
+        },
+        {
+          "text": "كيف اخد اللقاح"
+        },
+        {
+          "text": "لقاح كرونا"
+        },
+        {
+          "text": "لقاح كورونا"
+        },
+        {
+          "text": "ماهي طريقة الحجز"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ختام",
+      "examples": [
+        {
+          "text": "ok"
+        },
+        {
+          "text": "اوك"
+        },
+        {
+          "text": "اوكي"
+        },
+        {
+          "text": "تشكرات"
+        },
+        {
+          "text": "تمام"
+        },
+        {
+          "text": "شكرا لك"
+        },
+        {
+          "text": "طيب شكرا"
+        },
+        {
+          "text": "يديك العافيه"
+        },
+        {
+          "text": "يعطيك العافيه"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "اعراض_كورونا",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ارهاق",
+          "synonyms": [
+            "الم عضلات",
+            "تعب",
+            "ضعف عام"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "‎‫‎‫‎‫‎‫‎‫‎‫ح‬‎ر‬‎ا‬‎ر‬‎ة‬‎",
+          "synonyms": [
+            "ارتفاع الحراره",
+            "ارتفاع درجة حرارة الجسم",
+            "حراره",
+            "‎‫حمى",
+            "سخونة",
+            "سخونه"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "سعال",
+          "synonyms": [
+            "كحة",
+            "كحه"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "صداع",
+          "synonyms": [
+            "الم الراس",
+            "الم في الرأس"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "الوقاية_من_كورونا",
+      "output": {
+        "generic": [
+          {
+            "title": "تقدر تحمي نفسك وعايلتك من خلال:",
+            "options": [],
+            "description": "غسل اليدين بالماء و الصابون أو المعقم الكحولي ،لبس الكمامة،  التباعد الاجتماعي، و تجنب المخالطة المباشرة مع من تظهر عليهم ا­عراض تنفسية. ",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#الوقاية",
+      "dialog_node": "node_1_1625799170026",
+      "previous_sibling": "node_9_1625799101026"
+    },
+    {
+      "type": "standard",
+      "title": "اعراض_كورونا",
+      "output": {
+        "generic": [
+          {
+            "title": "يؤثر مرض كوفيد-19 في الأشخاص المختلفين بطرق مختلفة. ويعاني معظم الأشخاص الذين يصابون به أعراضًا طفيفة إلى متوسطة ويشفون من دون دخول المستشفى وتشمل:",
+            "options": [],
+            "description": "فقدان حاسة التذوق او الشم, حرارة, كحة, ضيق تنفس.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#اعراض",
+      "dialog_node": "node_1_1625799335201",
+      "previous_sibling": "node_5_1625799286469"
+    },
+    {
+      "type": "standard",
+      "title": "ترحيب",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "يا هلا. تفضل اسألني"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ترحيب",
+      "dialog_node": "node_2_1625799012364",
+      "previous_sibling": "node_6_1625799869366"
+    },
+    {
+      "type": "standard",
+      "title": "اعراضه",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "احد اعراض فايروس كورونا غير الشائعة"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@اعراض_كورونا",
+      "dialog_node": "node_5_1625799286469",
+      "previous_sibling": "node_1_1625799170026"
+    },
+    {
+      "type": "standard",
+      "title": "خاتمه",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "سعيد بخدمتك. هلا بك "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ختام",
+      "dialog_node": "node_6_1625799869366",
+      "previous_sibling": "مرحبا"
+    },
+    {
+      "type": "standard",
+      "title": "لقاح_كورونا",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "تقدر تحجز لأخذ اللقاح عن طريق تطبيق صحتي "
+              },
+              {
+                "text": "تقدر تحجز عن طريق الاتصال على 937"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#حجز_لقاح",
+      "dialog_node": "node_8_1625799042034",
+      "previous_sibling": "node_2_1625799012364"
+    },
+    {
+      "type": "standard",
+      "title": "تسميات",
+      "conditions": "#تسميات",
+      "dialog_node": "node_9_1625799101026",
+      "previous_sibling": "node_8_1625799042034"
+    },
+    {
+      "type": "standard",
+      "title": "أي شيء آخر",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "لم أفهم، يمكنك محاولة اعادة الصياغة"
+              },
+              {
+                "text": "هل يمكنك اعادة صياغة عبارتك؟ أنا لا فهم"
+              },
+              {
+                "text": "لم أفهم قصدك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "أي شيء آخر",
+      "previous_sibling": "node_1_1625799335201",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "مرحبا",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "يا هلا فيك في خدمة التعريف عن فايروس كورونا. كيف اقدر اخدمك؟"
+              },
+              {
+                "text": "مرحبا بك في خدمة التعريف عن فايروس كورونا. كيف اقدر اخدمك؟"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "مرحبا"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": ":هل قصدت",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "كل ما سبق خطأ"
+    },
+    "human_agent_assist": {
+      "prompt": ":هل قصدت"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "التعريف عن الفايروس",
+  "language": "ar",
+  "description": ""
+}
